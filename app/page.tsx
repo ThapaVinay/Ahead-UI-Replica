@@ -1,12 +1,13 @@
 
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+
 // import EqInfo from "./Component/EqInfo"
 // import ScrollBox from "./Component/ScrollBox"
 // import SelfImprovement from "./Component/SelfImprovement"
 // import Meet from "./Component/Meet"
 // import Sign from "./Component/Sign"
-// import  Anonymous  from "./Component/Anonymous";
+// import Anonymous  from "./Component/Anonymous";
 // import Work from "./Component/Work"
 // import Vaccancy from "./Component/Vaccancy"
 // import Footer from "./Component/Footer"
@@ -25,7 +26,7 @@ export default function Home() {
         {/* <EqInfo/> */}
         {/* <Anonymous/> */}
         {/* <Sign/>
-      <Work/> */}
+        <Work/> */}
         {/* <Vaccancy/> */}
         {/* <Footer/> */}
       </div>
