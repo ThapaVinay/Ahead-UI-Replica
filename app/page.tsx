@@ -2,8 +2,8 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import EqInfo from "./components/EqInfo"
+import ScrollBox from "./components/ScrollBox"
 
-// import ScrollBox from "./Component/ScrollBox"
 // import SelfImprovement from "./Component/SelfImprovement"
 // import Meet from "./Component/Meet"
 // import Sign from "./Component/Sign"
@@ -20,7 +20,7 @@ export default function Home() {
       <div className="p-10 overflow-hidden bg-white">
         <Hero/>
         <EqInfo/>
-        {/* <ScrollBox/> */}
+        <ScrollBox/>
         {/* <Meet/> */}
         {/* <SelfImprovement/> */}
         {/* <EqInfo/> */}
