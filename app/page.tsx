@@ -6,7 +6,7 @@ import ScrollBox from "./components/ScrollBox"
 import SelfImprovement from "./components/SelfImprovement"
 import Meet from "./components/Meet"
 // import Sign from "./Component/Sign"
-// import Anonymous  from "./Component/Anonymous";
+import Anonymous  from "./components/Anonymous";
 // import Work from "./Component/Work"
 // import Vaccancy from "./Component/Vaccancy"
 // import Footer from "./Component/Footer"
@@ -23,7 +23,7 @@ export default function Home() {
         <Meet/>
         <SelfImprovement/>
         <EqInfo/>
-        {/* <Anonymous/> */}
+        <Anonymous/>
         {/* <Sign/>
         <Work/> */}
         {/* <Vaccancy/> */}
