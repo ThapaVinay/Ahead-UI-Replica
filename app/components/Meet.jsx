@@ -102,8 +102,86 @@ const Meet = () => {
 
         });
 
-        
+        gsap.to(leaf1, {
+            rotation: -4000,
+            duration: 3,
+            repeat: -1,
+            scrollTrigger: {
+                trigger: text1,
+                start: "top 80% ",
+                start: "bottom 50%",
+                toggleActions: "restart complete reverse reset"
+            }
+        });
 
+        gsap.to(leaf2, {
+            scale: 1,
+            opacity: 1,
+            rotation: 4000,
+            delay: 0.4,
+            duration: 3,
+            ease: "elastic.out(1.2, 0.3)",
+            repeat: -1,
+            scrollTrigger: {
+                trigger: text1,
+                start: "top 80% ",
+                start: "bottom 50%",
+                toggleActions: "restart complete reverse reset"
+            }
+
+        });
+
+        gsap.to(rank, {
+            scale: 1,
+            opacity: 1,
+            rotation: 2000,
+            delay: 0.4,
+            duration: 3,
+            ease: "elastic.out(1.2, 0.3)",
+            scrollTrigger: {
+                trigger: text1,
+                start: "top 80% ",
+                start: "bottom 50%",
+                toggleActions: "restart complete reverse reset"
+            }
+
+        });
+
+        gsap.fromTo(text1, {
+            duration: 1,
+            opacity: 0,
+            x: -100
+        }, {
+            duration: 1,
+            opacity: 1,
+            x: 0,
+            repeat: 0,
+            ease: "Power3.out",
+            scrollTrigger: {
+                trigger: text1,
+                start: "top 80% ",
+                start: "bottom 50%",
+                toggleActions: "restart complete reverse reset"
+            }
+        });
+
+        gsap.fromTo(text2, {
+            duration: 1,
+            opacity: 0,
+            x: -100
+        }, {
+            duration: 1,
+            opacity: 1,
+            x: 0,
+            repeat: 0,
+            ease: "Power3.out",
+            scrollTrigger: {
+                trigger: text1,
+                start: "top 80% ",
+                start: "bottom 50%",
+                toggleActions: "restart complete reverse reset"
+            }
+        });
 
     }, [])
 
@@ -113,7 +191,7 @@ const Meet = () => {
 
         <div className=' overflow-hidden relative rounded-3xl h-[600px] p-14 mt-36 bg-[#FEF6F0]'>
             <img ref={(el => { flower = el })} className='absolute right-0 top-0' src={"/assets/flower.png"} width={80} />
-            <img ref={(el => { leaf2 = el })} className='absolute right-16 top-20' src={"/assets/leaf.png"} width={80} />
+            <img ref={(el => { leaf2 = el })} className='absolute right-16 top-20 scale-0' src={"/assets/leaf.png"} width={80} />
             <p ref={(el => { text1 = el })} className='text-xl font-bold' >Built out fustration</p>
             <h1 ref={(el => { text2 = el })} className='text-5xl font-bold'>Meet the ahead app</h1>
             <div className='flex justify-between  gap-10 -mt-10 items-center h-[100%]  '>
@@ -125,7 +203,7 @@ const Meet = () => {
                     <img ref={(el => { smallcircle = el })} src={"assets/gola orange.png"} width={30} height={10} className='absolute left-[30rem] top-[5rem] scale-50' />
                     <div className='h-[250px] relative w-[250px] rounded-full bg-[#F6F6F6] flex justify-center items-center'>
                         <div>
-                            <img ref={(el => { rank = el })} src={"/assets/1 rank.png"} width={60} className='absolute top-0 left-24' />
+                            <img ref={(el => { rank = el })} src={"/assets/1 rank.png"} width={60} className='absolute top-0 left-24 scale-0' />
                         </div>
                         <div className='h-[200px] flex justify-center  items-center  w-[200px] rounded-full bg-white'>
 
