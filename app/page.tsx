@@ -3,9 +3,9 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import EqInfo from "./components/EqInfo"
 import ScrollBox from "./components/ScrollBox"
+// import SelfImprovement from "./components/SelfImprovement"
 
-// import SelfImprovement from "./Component/SelfImprovement"
-// import Meet from "./Component/Meet"
+import Meet from "./components/Meet"
 // import Sign from "./Component/Sign"
 // import Anonymous  from "./Component/Anonymous";
 // import Work from "./Component/Work"
@@ -21,7 +21,7 @@ export default function Home() {
         <Hero/>
         <EqInfo/>
         <ScrollBox/>
-        {/* <Meet/> */}
+        <Meet/>
         {/* <SelfImprovement/> */}
         {/* <EqInfo/> */}
         {/* <Anonymous/> */}
