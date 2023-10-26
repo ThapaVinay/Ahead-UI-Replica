@@ -44,7 +44,6 @@ const ScrollBox = () => {
                 start: "top 80% ",
                 toggleActions: "restart complete reverse reset"
             }
-
         });
 
         gsap.to(sec, {
