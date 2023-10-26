@@ -61,10 +61,10 @@ const ScrollBox = () => {
     }, [])
 
     return (
-        <div className=' relative mlt mt-36 z-0  '>
+        <div className=' relative mlt mt-36 z-0'>
             <h1 ref={(el) => { text = el }} className='text-4xl font-bold'>Does this sound familiar...</h1>
             <img src={"/assets/orange cutie.png"} ref={(el) => { orange = el }} width={100} className='absolute top-[2rem] -rotate-[30deg] left-[50.5rem]' />
-            <div ref={(el) => { sec = el }} className='mt-9   h-[350px]  gap-12  relative whitespace-nowrap overflow-x-auto z-10 scrollbar-hide     '>
+            <div ref={(el) => { sec = el }} className='mt-9   h-[350px]  gap-12  relative whitespace-nowrap  no-scrollbar overflow-x-auto'>
                 <div className=' translate-y-6 rounded-3xl mr-12 inline-block  gap-2  p-9 py-2 bg-[#D9F2FF] h-[250px] w-[300px]'>
                     <img className='' width={60} height={100} src={"/assets/emoji heart.png"} />
                     <div className='flex flex-col gap-3'>

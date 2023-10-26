@@ -6,14 +6,26 @@ import { useRef, useEffect } from 'react';
 import { useState } from "react";
 
 const SelfImprovement = () => {
+
+    let text1 = useRef(null);
+    let text2 = useRef(null);
+    let blue = useRef(null);
+    const [num, setNum] = useState(1);
+    // setNum(3);
+    function clickHandler(num) {
+        setNum(num);
+    }
+
     return (
-        <div className='mt-64 relative w-full  '>
+        <div className='mt-64 relative w-full'>
             <p ref={(el => { text1 = el })} className='text-lg font-bold mb-4'>Wrong with self-improvement and how we&apos;re fixing it.</p>
 
             <h1 ref={(el => { text2 = el })} className='text-4xl font-bold  ' >Self-improvement. Ugh.</h1>
             <img ref={(el => { blue = el })} className='absolute right-[36rem] top-1' width={105} src={"/assets/blue cutie.png"} />
 
-            <div className='w-full mt-11 transition-all duration-1000  flex flex-col items-center justify-center h-[400px] overflow-y-auto scrollbar-hide  '>
+            {/* <div className='w-1 absolute  mt-11 rounded-3xl h-[700px] bg-blue-800'>
+      </div> */}
+            <div className='w-full mt-11 transition-all duration-1000  flex flex-col items-center justify-center h-[400px] no-scrollbar overflow-y-auto display-none'>
                 <div onMouseEnter={() => clickHandler(1)} className='flex relative mt-96 cursor-default  right-2 top-2  justify-center items-center'>
                     <div className={`h-[40px] w-[40px] ${(num == 1) ? "bg-blue-200" : "bg-white"}  right-4  relative z-30 rounded-full flex items-center justify-center `}>
                         <div className='w-1 bg-blue-800 h-28  mt-3 ' >
