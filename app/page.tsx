@@ -5,7 +5,7 @@ import EqInfo from "./components/EqInfo"
 import ScrollBox from "./components/ScrollBox"
 import SelfImprovement from "./components/SelfImprovement"
 import Meet from "./components/Meet"
-// import Sign from "./Component/Sign"
+import Sign from "./components/Sign"
 import Anonymous  from "./components/Anonymous";
 // import Work from "./Component/Work"
 // import Vaccancy from "./Component/Vaccancy"
@@ -18,14 +18,14 @@ export default function Home() {
       <Header />
       <div className="p-10 overflow-hidden bg-white">
         <Hero/>
-        <EqInfo/>
+        <EqInfo/> 
         <ScrollBox/>
         <Meet/>
         <SelfImprovement/>
         <EqInfo/>
         <Anonymous/>
-        {/* <Sign/>
-        <Work/> */}
+        <Sign/>
+        {/* <Work/> */}
         {/* <Vaccancy/> */}
         {/* <Footer/> */}
       </div>
