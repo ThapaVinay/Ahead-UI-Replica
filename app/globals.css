@@ -40,3 +40,19 @@ body {
     }
   }
 }
+
+.box:hover {
+  height: 350px;
+  transition: 0.5s;
+  /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+  /* transition-delay: 2s; */
+  transition-duration: 0.5s;
+  cursor: pointer;
+  /* transition-property: margin-right; */
+  background-color: #ebc997;
+}
+
+.box {
+  height: 260px;
+  background-color: rgb(254, 251, 236);
+}

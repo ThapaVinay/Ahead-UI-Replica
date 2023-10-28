@@ -8,7 +8,7 @@ import Meet from "./components/Meet"
 import Sign from "./components/Sign"
 import Anonymous  from "./components/Anonymous";
 import Work from "./components/Work.jsx"
-// import Vaccancy from "./Component/Vaccancy"
+import Vacancy from "./components/Vacancy.jsx"
 // import Footer from "./Component/Footer"
 
 
@@ -26,7 +26,7 @@ export default function Home() {
         <Anonymous/>
         <Sign/>
         <Work/>
-        {/* <Vaccancy/> */}
+        <Vacancy/>
         {/* <Footer/> */}
       </div>
 
