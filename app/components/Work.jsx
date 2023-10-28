@@ -90,7 +90,7 @@ const Work = () => {
 
             </div>
             <div className='w-[50%]  p-11 '>
-                <h1 ref={(el => { text2 = el })} className='text-5xl text-[#6448D6] text-right font-bold'>ahead</h1>
+                <h1 ref={(el => { text2 = el })} className='text-5xl text-[#6448D6] text-right font-bold'>Ahead</h1>
                 <div className='flex justify-center h-[600px] overflow-y-auto  scrollbar-thumb-[#8167e8] scrollbar-medium scrollbar-thin scrollbar-track-white  flex-col gap-5 items-center mt-11  p-4 -mr-8'>
                     <div className='w-[70%] h-[200px] justify-center  flex flex-col mt-52 gap-4 p-4 rounded-3xl  bg-white py-12 '>
                         <h1 className=' font-bold'>Power through, even when <br /> the

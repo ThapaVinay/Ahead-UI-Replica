@@ -8,7 +8,7 @@ const Vacancy = () => {
     let text1 = useRef(null);
 
     return (
-        <div className='  p-11 mt-28'>
+        <div className='  p-11 mt-20'>
             <p className='text-5xl font-bold'>Open Vacancies</p>
 
             <div className='mt-12 justify-between gap-10 flex'>
