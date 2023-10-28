@@ -7,7 +7,7 @@ import SelfImprovement from "./components/SelfImprovement"
 import Meet from "./components/Meet"
 import Sign from "./components/Sign"
 import Anonymous  from "./components/Anonymous";
-// import Work from "./Component/Work"
+import Work from "./components/Work.jsx"
 // import Vaccancy from "./Component/Vaccancy"
 // import Footer from "./Component/Footer"
 
@@ -25,7 +25,7 @@ export default function Home() {
         <EqInfo/>
         <Anonymous/>
         <Sign/>
-        {/* <Work/> */}
+        <Work/>
         {/* <Vaccancy/> */}
         {/* <Footer/> */}
       </div>
